@@ -184,9 +184,67 @@
     font-weight: bold;
     margin-bottom: 20px;
 }
+#main-content button .ti-angle-right:hover{
+    color: yellow;
+}
+
+/* Phan menu */
+#menu {
+    max-width: 100%;
+    margin-top: 0;
+    padding-top: 60%;
+    background-color: #d2cfcc;
+    position: relative;
+}
+
+#menu .menu-main {
+    position: absolute;
+    top: 10px;
+}
+
+#menu .menu-header {
+    text-align: center;
+    font-size:  190%;
+    padding: 15px 470px 30px;
+}
+
+#menu .menu-content ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#menu li {
+    padding: 60px 70px;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#menu .icon-title {
+    font-size: 34px;
+}
+
+#menu .icon-content {
+    font-size: 18px;
+}
 
 
 
+/* Phan dropdown */
+#menu .menu-inform {
+    position: absolute;
+    top: 110%;
+    max-width: 100%;
+    background-color: #ae2241;
+}
+
+#menu .menu-details {
+    background-color: #ae2241;
+}
 
 
 
