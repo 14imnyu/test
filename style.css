@@ -193,7 +193,7 @@
     max-width: 100%;
     margin-top: 0;
     padding-top: 60%;
-    background-color: #d2cfcc;
+    background-color: #d2cfcc; /* phan nen mau xam */
     position: relative;
 }
 
@@ -208,14 +208,14 @@
     padding: 15px 470px 30px;
 }
 
-#menu .menu-content ul {
+#menu .menu-content1 {
     list-style-type: none;
     display: flex;
     justify-content: center;
     padding-top: 30px;
 }
 
-#menu li {
+#menu .menu-content-col {
     padding: 60px 70px;
     text-align: center;
     color: white;
@@ -235,18 +235,19 @@
 
 
 /* Phan dropdown */
-#menu .menu-inform {
-    position: absolute;
-    top: 110%;
-    max-width: 100%;
+#menu .menu-background {
+    display: block;
     background-color: #ae2241;
+    max-width: 100%;
+    padding: 400px 0;
+    position: relative;;
 }
 
 #menu .menu-details {
-    background-color: #ae2241;
+    position: absolute;
+    top: 30px;
+    color: white;
+    text-align: center;
+    margin-left: 500px;
 }
-
-
-
-
 
