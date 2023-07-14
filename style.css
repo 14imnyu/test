@@ -239,15 +239,47 @@
     display: block;
     background-color: #ae2241;
     max-width: 100%;
-    padding: 400px 0;
-    position: relative;;
+    position: relative;
+}
+
+#menu .menu-inform {
+    color: white;
 }
 
 #menu .menu-details {
-    position: absolute;
-    top: 30px;
-    color: white;
     text-align: center;
-    margin-left: 500px;
+    padding-top: 30px;
 }
 
+/* Phan menu */
+
+#menu .menu-column {
+    padding-top: 50px;  
+}
+
+#menu .menu-table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    padding-bottom: 80px;
+}
+
+#menu td {
+    width: 260px;
+    height: 88px;
+    font-size: 24px;
+}
+
+#menu .menu-line, .menu-last {
+    padding: 20px 20px 10px 25px;  
+}
+
+#menu .menu-line {
+    border-right:white 1px solid;
+}
+
+#menu .menu-icon {
+    width: 90px;
+    font-size: 40px;
+    text-align: center;
+}
