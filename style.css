@@ -192,8 +192,8 @@
 #menu {
     max-width: 100%;
     margin-top: 0;
-    padding-top: 60%;
-    background-color: #d2cfcc; /* phan nen mau xam */
+    padding-top: 1222px;
+    background-color: #d2cfcc; /* part of gray*/
     position: relative;
 }
 
@@ -235,10 +235,10 @@
 
 
 /* Phan dropdown */
-#menu .menu-background {
+#menu .menu1-background {
     display: block;
     background-color: #ae2241;
-    max-width: 100%;
+    max-width: 1600px;
     position: relative;
 }
 
@@ -246,32 +246,32 @@
     color: white;
 }
 
-#menu .menu-details {
+#menu .menu1-details {
     text-align: center;
     padding-top: 30px;
 }
 
 /* Phan menu */
 
-#menu .menu-column {
+#menu .menu1-column {
     padding-top: 50px;  
 }
 
-#menu .menu-table {
+#menu .menu1-table {
     display: flex;
     justify-content: center;
     border-collapse: collapse;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 #menu td {
     width: 260px;
-    height: 88px;
-    font-size: 24px;
+    height: 80px;
+    font-size: 22px;
 }
 
 #menu .menu-line, .menu-last {
-    padding: 20px 20px 10px 25px;  
+    padding: 10px 20px 0px 25px;  
 }
 
 #menu .menu-line {
@@ -282,4 +282,49 @@
     width: 90px;
     font-size: 40px;
     text-align: center;
+}
+
+/* Join up now */
+#joinnow {
+    max-width: 100%;
+    padding: 30px 0;
+    background-color: white;
+    
+}
+
+#joinnow .join-table {
+    display: flex;
+    justify-content: center;
+    color: #3d3940;
+}
+
+#joinnow td {
+    border: white 10px solid;
+    max-width: 650px;  /*490 */
+}
+
+#joinnow .ti-user {
+    font-size: 100px;
+    color: #086dae;
+}
+
+
+#joinnow .inform-join-now {
+    color: #3d3940;
+    width: 480px;
+}
+
+#joinnow .button-join-now {
+    width: 380px;
+    text-align: right;
+}
+
+#joinnow button {
+    background-color: #086dae;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
 }
