@@ -328,3 +328,55 @@
     font-size: 22px;
     font-weight: bold;
 }
+
+#joinnow .ti-angle-right {
+    font-weight: bold;
+}
+#joinnow button:hover {
+    background-color: #064e7e;
+}
+
+#joinnow .ti-angle-right:hover {
+    color: #fedf09;
+}
+
+/* back to top */
+#back-to-top {
+    max-width: 100%;
+    padding: 25px 0;
+    background-color: #ae2241;
+    display: flex;
+    justify-content: space-around;
+}
+
+#back-to-top .btt {
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    background-color: #ae2241;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+#back-to-top .ti-angle-up {
+    font-weight: bolder;
+}
+
+#back-to-top .ti-angle-up:hover {
+    color: #fedf09;
+}
+
+/* search bar */
+#back-to-top input[type=text] {
+    border: none;
+    padding: 6px 100px 6px 12px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#back-to-top .sb {
+    background-color: #086dae;
+    color: white;
+    font-size: 29px;
+    border: none;
+}
